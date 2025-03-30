@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ececec;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100dvh;
+    box-sizing: border-box;
+}
+
+.id {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 1rem;
+}
+
+.id p {
+    font-size: 1.2rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h1, p {
+    color: #333;
+    text-align: center;
+    margin: unset;
+}
+
+.coming-soon {
+    margin: 1rem 0;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon-linkedin {
+    max-width: 45px;
+}
+
+.contact a {
+    text-decoration: underline;
+    color: #333;
+}
